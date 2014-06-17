@@ -1,0 +1,13 @@
+{
+  "python": {
+    "install_method": "source"
+  },
+  "run_list": [
+    "recipe[python]",
+    "recipe[mitmproxy]"
+
+  ],
+  "automatic": {
+    "ipaddress": "proxy"
+  }
+}
